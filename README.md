@@ -1,6 +1,6 @@
-# tapaScript Cars
+# CarsMart
 
-tapaScript Cars is a React-based application that allows users to search for cars and filter premium cars using a checkbox. The project is built with **React** and **TailwindCSS** and adheres to best practices, ensuring no ESLint errors or console warnings.
+CarsMart is a React-based application that allows users to search for cars and filter premium cars using a checkbox. The project is built with **React** and **TailwindCSS** and adheres to best practices, ensuring no ESLint errors or console warnings.
 
 ## 📂 Features
 
