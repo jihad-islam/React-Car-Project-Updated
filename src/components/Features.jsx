@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import Search from "./Search";
 import CheckBox from "./CheckBox";
@@ -11,5 +12,11 @@ function Features({ searchTerm, onSearchCar, onTogglePremium }) {
     </div>
   );
 }
+
+Features.propTypes = {
+  searchTerm: PropTypes.string.isRequired,
+  onSearchCar: PropTypes.func.isRequired,
+  onTogglePremium: PropTypes.func.isRequired,
+};
 
 export default Features;

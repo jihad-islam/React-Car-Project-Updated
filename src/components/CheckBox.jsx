@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function CheckBox({ onTogglePremium }) {
   const handleChange = (e) => {
@@ -14,5 +15,9 @@ function CheckBox({ onTogglePremium }) {
     </div>
   );
 }
+
+CheckBox.propTypes = {
+  onTogglePremium: PropTypes.func.isRequired,
+};
 
 export default CheckBox;

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function CarDetails({ car }) {
   return (
@@ -21,5 +22,9 @@ function CarDetails({ car }) {
     </div>
   );
 }
+
+CarDetails.propTypes = {
+  car: PropTypes.object.isRequired,
+};
 
 export default CarDetails;

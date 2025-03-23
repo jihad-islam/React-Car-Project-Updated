@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function Search({ searchTerm, onSearchCar }) {
   return (
@@ -15,5 +16,10 @@ function Search({ searchTerm, onSearchCar }) {
     </div>
   );
 }
+
+Search.propTypes = {
+  searchTerm: PropTypes.string.isRequired,
+  onSearchCar: PropTypes.func.isRequired,
+};
 
 export default Search;

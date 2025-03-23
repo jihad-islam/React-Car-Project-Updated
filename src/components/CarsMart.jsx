@@ -50,10 +50,7 @@ const CARS = [
 
 function CarsMart() {
   const [searchTerm, setSearchTerm] = useState("");
-  // const [cars, setSelectCars] = useState(CARS);
   const [showPremium, setShowPremium] = useState(false);
-
-  // const filteredCars = showPremium ? CARS.filter((car) => car.isPremium) : CARS;
 
   const filteredCars = CARS.filter(
     (car) => !showPremium || car.isPremium
