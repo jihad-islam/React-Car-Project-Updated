@@ -50,7 +50,7 @@ Below is the component hierarchy diagram for the project:
 
 The project is deployed and accessible at the following link:
 
-[Live Demo on Vercel](https://react-car-project-gamma.vercel.app/)
+[Live Demo on Vercel](https://react-car-project-updated.vercel.app/)
 
 You can also find the source code on GitHub:
 
